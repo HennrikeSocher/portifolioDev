@@ -30,8 +30,9 @@
 }
 
 body {
-  background-color: var(--base-gray-300);
-  font: var(--font-maven);
+  background-color: var(--base-gray-200);
+  font: var(--text-sm);
+  color: var(--base-gray-600);
 }
 
 .container {

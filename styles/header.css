@@ -1,0 +1,91 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 80px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  width: 680px;
+  height: 327px;
+
+  & .avatar {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    border: 2px solid var(--main-color-red);
+    border-radius: 99px;
+
+    & .user {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      left: 4px;
+      top: 4px;
+      border-radius: 99px;
+    }
+
+    & .codeIcon {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 78px;
+      top: 78px;
+      z-index: 2;
+    }
+  }
+  & .text-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    & .title-header {
+      margin-bottom: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & p {
+        font: var(--subtitle);
+
+        & span {
+          color: var(--main-color-red);
+        }
+      }
+
+      & h1 {
+        font: var(--text-bold-lg);
+        color: var(--base-gray-600);
+      }
+    }
+
+    & p {
+      color: var(--base-gray-400);
+    }
+  }
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+  & .tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--base-gray-300);
+    border-radius: 30px;
+  }
+}
