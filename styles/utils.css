@@ -6,6 +6,20 @@
   grid-auto-flow: column;
 }
 
-.grid-cols-2 {
-  grid-template-columns: 2fr 2fr;
+.grid-cols-3 {
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.main-title {
+  margin-inline: auto;
+  margin-bottom: 40px;
+
+  & p {
+    font: var(--subtitle);
+    color: var(--main-color-red);
+  }
+
+  & h2 {
+    font: var(--text-bold-md);
+  }
 }

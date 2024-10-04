@@ -1,22 +1,4 @@
-.title-projects {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 10px;
-  margin-bottom: 40px;
-
-  & p {
-    font: var(--subtitle);
-    color: var(--main-color-red);
-  }
-
-  & h2 {
-    font: var(--text-bold-md);
-  }
-}
-
 .grid {
-  grid-template-columns: 2fr 2fr 2fr;
   gap: 24px;
 
   & .project {
@@ -43,6 +25,7 @@
       & h3 {
         font: var(--text-bold-sm);
         color: var(--base-gray-600);
+        margin-bottom: 6px;
       }
 
       p {
